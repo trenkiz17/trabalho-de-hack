@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b10">
+  <meta name="description" content="VNS.CO: hacking ético, segurança digital, redes, manutenção de computadores e fundamentos de eletricidade. Tecnologia para aprender com responsabilidade.">
+  <meta property="og:title" content="VNS.CO — Tecnologia sem limites">
+  <meta property="og:description" content="Explore segurança digital, redes, hardware e eletricidade básica com a VNS.CO.">
+  <meta property="og:image" content="assets/vns-logo.webp">
+  <title>VNS.CO | Segurança, Redes & Tecnologia</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <canvas class="starfield" id="starfield" aria-hidden="true"></canvas>
+  <a href="#principal" class="skip-link">Pular para conteúdo</a>
+  <header class="site-header" id="inicio">
+    <div class="container navbar">
+      <a href="#inicio" class="brand" aria-label="VNS.CO, voltar ao início"><span class="brand-symbol" aria-hidden="true">✦</span><span>VNS<span class="brand-dot">.</span>CO</span></a>
+      <nav class="nav-links" aria-label="Menu principal">
+        <a href="#areas">Áreas</a><a href="#conteudos">Conteúdos</a><a href="#laboratorio">Laboratório</a><a href="#sobre">Sobre</a>
+      </nav>
+      <a href="#contato" class="nav-cta">Fale com a VNS <span aria-hidden="true">↗</span></a>
+      <button type="button" class="menu-toggle" aria-label="Abrir menu" aria-controls="mobile-menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+    <nav id="mobile-menu" class="mobile-menu" aria-label="Menu para celular" inert>
+      <a href="#areas">Áreas de atuação</a><a href="#conteudos">Conteúdos e guias</a><a href="#laboratorio">Laboratório</a><a href="#sobre">Sobre a VNS.CO</a><a href="#contato">Entre em contato ↗</a>
+    </nav>
+  </header>
+
+  <main id="principal">
+    <section class="hero-section section" aria-labelledby="hero-title">
+      <div class="container hero-layout">
+        <div class="hero-content reveal">
+          <div class="eyebrow"><span class="blink-dot"></span> VNS.CO / TECH & SECURITY</div>
+          <h1 id="hero-title">Conhecimento que <span class="gold-text">conecta.</span><br>Tecnologia que <span class="outline-text">protege.</span></h1>
+          <p class="hero-lead">Hacking ético, segurança digital, redes, manutenção de computadores e eletricidade básica. Tudo em um só universo para aprender, explorar e construir.</p>
+          <div class="hero-actions">
+            <a href="#conteudos" class="btn btn-gold">Explorar conteúdos <span aria-hidden="true">↗</span></a>
+            <a href="#areas" class="btn btn-outline">Conheça nossas áreas <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-note"><span>●</span> APRENDIZADO • SEGURANÇA • INOVAÇÃO</div>
+        </div>
+        <div class="hero-visual reveal" aria-label="Painel visual VNS.CO com marca espacial e temas tecnológicos">
+          <div class="visual-top"><span class="mono">VNS // SYSTEMS</span><span class="online-status"><span></span> EXPLORATION MODE</span></div>
+          <div class="visual-image"><img src="assets/vns-logo.webp" alt="Logo dourada VNS.CO com pequeno planeta, órbita e estrelas" fetchpriority="high"></div>
+          <div class="visual-terminal" aria-label="Temas de tecnologia na VNS.CO">
+            <div><span class="terminal-caret">›</span> <span class="terminal-action">explore</span> security / networks / hardware / electricity</div>
+            <div class="terminal-result">✓ 4 áreas para descobrir <span class="terminal-cursor" aria-hidden="true">▌</span></div>
+          </div>
+          <span class="visual-decoration visual-decoration-a" aria-hidden="true">✧</span><span class="visual-decoration visual-decoration-b" aria-hidden="true">✦</span>
+        </div>
+      </div>
+      <div class="container bottom-hero"><span>ENTRE NO UNIVERSO VNS.CO <span class="arrow-soft">↗</span></span><span class="scroll-note">ROLE PARA DESCOBRIR <span aria-hidden="true">↓</span></span></div>
+    </section>
+
+    <div class="tech-ticker" aria-hidden="true"><div class="ticker-track"><span>CYBER SECURITY</span><b>✦</b><span>REDES & INFRAESTRUTURA</span><b>✦</b><span>HARDWARE</span><b>✦</b><span>ELETRICIDADE BÁSICA</span><b>✦</b><span>CYBER SECURITY</span><b>✦</b><span>REDES & INFRAESTRUTURA</span><b>✦</b><span>HARDWARE</span><b>✦</b><span>ELETRICIDADE BÁSICA</span><b>✦</b></div></div>
+
+    <section id="areas" class="section areas-section">
+      <div class="container">
+        <div class="section-heading reveal"><div><p class="section-label">01 / NOSSAS ÁREAS</p><h2>De códigos a circuitos.<br><span class="muted">Tudo faz parte.</span></h2></div><p>Conheça os assuntos que movem a VNS.CO: proteção, conectividade, equipamentos e os fundamentos da energia.</p></div>
+        <div class="areas-grid">
+          <article class="area-card reveal"><div class="area-card-top"><span class="card-index">01 / SECURITY</span><span class="area-icon" aria-hidden="true">⌘</span></div><h3>Hacking ético & segurança</h3><p>Fundamentos de cibersegurança, privacidade, identificação de riscos e testes autorizados em ambientes controlados.</p><div class="tag-row"><span>Proteção</span><span>Boas práticas</span></div><a href="#conteudos" data-go-category="ciber" class="area-link">Ver conteúdos <span aria-hidden="true">↗</span></a></article>
+          <article class="area-card reveal"><div class="area-card-top"><span class="card-index">02 / NETWORK</span><span class="area-icon" aria-hidden="true">⌁</span></div><h3>Redes & infraestrutura</h3><p>Endereçamento IP, roteadores, Wi‑Fi, cabeamento estruturado e conceitos para redes mais organizadas e seguras.</p><div class="tag-row"><span>TCP/IP</span><span>Wi‑Fi</span></div><a href="#conteudos" data-go-category="redes" class="area-link">Ver conteúdos <span aria-hidden="true">↗</span></a></article>
+          <article class="area-card reveal"><div class="area-card-top"><span class="card-index">03 / HARDWARE</span><span class="area-icon" aria-hidden="true">▣</span></div><h3>Hardware & manutenção</h3><p>Peças de computadores, diagnóstico inicial, limpeza, organização e cuidados preventivos com PCs e notebooks.</p><div class="tag-row"><span>Computadores</span><span>Diagnóstico</span></div><a href="#conteudos" data-go-category="hardware" class="area-link">Ver conteúdos <span aria-hidden="true">↗</span></a></article>
+          <article class="area-card reveal"><div class="area-card-top"><span class="card-index">04 / ELECTRIC</span><span class="area-icon" aria-hidden="true">ϟ</span></div><h3>Eletricidade básica</h3><p>Tensão, corrente, resistência, Lei de Ohm, componentes e segurança ao estudar circuitos de baixa tensão.</p><div class="tag-row"><span>Circuitos</span><span>Lei de Ohm</span></div><a href="#conteudos" data-go-category="eletrica" class="area-link">Ver conteúdos <span aria-hidden="true">↗</span></a></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="conteudos" class="section learning-section">
+      <div class="container">
+        <div class="section-heading reveal"><div><p class="section-label">02 / BASE DE CONHECIMENTO</p><h2>Explore. Aprenda.<br><span class="gold-text">Evolua.</span></h2></div><p>Guias introdutórios de verdade para começar pelos conceitos certos. Clique em um tema para ler.</p></div>
+        <div class="learning-controls reveal">
+          <div class="filter-list" role="group" aria-label="Filtrar conteúdos">
+            <button class="filter-btn active" data-filter="todos" aria-pressed="true">Todos</button>
+            <button class="filter-btn" data-filter="ciber" aria-pressed="false">Cibersegurança</button>
+            <button class="filter-btn" data-filter="redes" aria-pressed="false">Redes</button>
+            <button class="filter-btn" data-filter="hardware" aria-pressed="false">Hardware</button>
+            <button class="filter-btn" data-filter="eletrica" aria-pressed="false">Eletricidade</button>
+          </div>
+          <label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">Buscar guia</span><input id="search-guide" type="search" placeholder="Buscar assunto..." autocomplete="off"></label>
+        </div>
+        <div id="guide-list" class="guide-grid">
+          <button type="button" class="guide-card reveal" data-category="ciber" data-guide="etica"><span class="guide-meta"><span>CYBER / 01</span><span>5 MIN</span></span><span class="guide-icon">⌘</span><strong>Hacking ético: por onde começar?</strong><span>Permissão, escopo, laboratórios e hábitos seguros.</span><span class="guide-action">Ler guia <b>↗</b></span></button>
+          <button type="button" class="guide-card reveal" data-category="ciber" data-guide="senhas"><span class="guide-meta"><span>CYBER / 02</span><span>4 MIN</span></span><span class="guide-icon">✳</span><strong>Como proteger suas contas</strong><span>Senhas fortes, MFA, golpes e atualizações.</span><span class="guide-action">Ler guia <b>↗</b></span></button>
+          <button type="button" class="guide-card reveal" data-category="redes" data-guide="ip"><span class="guide-meta"><span>NETWORK / 03</span><span>5 MIN</span></span><span class="guide-icon">⌁</span><strong>IP, roteador e Wi‑Fi</strong><span>O caminho dos dados em uma rede doméstica.</span><span class="guide-action">Ler guia <b>↗</b></span></button>
+          <button type="button" class="guide-card reveal" data-category="redes" data-guide="cabos"><span class="guide-meta"><span>NETWORK / 04</span><span>4 MIN</span></span><span class="guide-icon">⇄</span><strong>Introdução ao cabeamento</strong><span>Cabos de rede, conectores e organização.</span><span class="guide-action">Ler guia <b>↗</b></span></button>
+          <button type="button" class="guide-card reveal" data-category="hardware" data-guide="hardware"><span class="guide-meta"><span>HARDWARE / 05</span><span>4 MIN</span></span><span class="guide-icon">▣</span><strong>Conheça as peças do PC</strong><span>CPU, RAM, SSD, fonte e suas funções.</span><span class="guide-action">Ler guia <b>↗</b></span></button>
+          <button type="button" class="guide-card reveal" data-category="eletrica" data-guide="ohm"><span class="guide-meta"><span>ELECTRIC / 06</span><span>5 MIN</span></span><span class="guide-icon">ϟ</span><strong>Eletricidade e Lei de Ohm</strong><span>Entenda volts, amperes, ohms e potência.</span><span class="guide-action">Ler guia <b>↗</b></span></button>
+        </div>
+        <p class="empty-results" id="empty-results" hidden>Nenhum guia encontrado. Tente outro termo ou categoria.</p>
+        <p class="library-note"><span>✦</span> Conteúdo educacional introdutório. Hacking ético exige autorização; eletricidade exige cuidados e supervisão adequada.</p>
+      </div>
+    </section>
+
+    <section id="laboratorio" class="section lab-section">
+      <div class="container lab-layout">
+        <div class="lab-intro reveal"><p class="section-label">03 / LABORATÓRIO INTERATIVO</p><h2>Conhecimento<br><span class="gold-text">na prática.</span></h2><p>Entenda como tensão, resistência, corrente e potência se relacionam. Use a calculadora didática com valores de um circuito simples de baixa tensão.</p><div class="formula-box"><span>LEI DE OHM</span><strong>I = V ÷ R</strong><small>Corrente = tensão / resistência</small></div><p class="safety-note">⚠ Simulação educativa. Não utilize como orientação para trabalhar em tomadas, redes elétricas ou instalações energizadas.</p></div>
+        <div class="lab-panel reveal">
+          <div class="panel-heading"><div><span class="panel-mark">● ● ●</span><span>VNS / OHM CALCULATOR</span></div><span>EDU MODE</span></div>
+          <div class="panel-inner">
+            <p class="panel-caption">INSIRA OS VALORES</p>
+            <div class="form-columns"><label for="voltage">Tensão <span>(V)</span><input type="number" inputmode="decimal" min="0" max="1000" step="any" id="voltage" value="5"></label><label for="resistance">Resistência <span>(Ω)</span><input type="number" inputmode="decimal" min="0.01" max="100000000" step="any" id="resistance" value="220"></label></div>
+            <div class="lab-presets"><span>EXEMPLOS:</span><button type="button" data-volt="5" data-res="220">5V / 220Ω</button><button type="button" data-volt="12" data-res="1000">12V / 1kΩ</button></div>
+            <div class="lab-results"><div><span>CORRENTE ESTIMADA</span><strong id="current-result" aria-live="polite">22,73 mA</strong></div><div><span>POTÊNCIA ESTIMADA</span><strong id="power-result" aria-live="polite">0,114 W</strong></div></div>
+            <p class="calc-feedback" id="calc-feedback" role="status" aria-live="polite">Valores teóricos para um resistor ideal.</p>
+          </div>
+          <div class="panel-bottom"><span>VNS.CO / LEARN BY DOING</span><span>V 01.0</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section about-section">
+      <div class="container about-layout"><div class="about-symbol reveal" aria-hidden="true"><img src="assets/vns-logo-recorte.webp" alt=""><span class="symbol-caption">VNS.CO / BEYOND LIMITS</span></div><div class="about-copy reveal"><p class="section-label">04 / QUEM SOMOS</p><h2>Curiosidade é o começo. <span class="muted">Conhecimento é o caminho.</span></h2><p>A VNS.CO é apresentada aqui como um espaço dedicado ao universo da tecnologia. Da defesa digital aos fundamentos da eletricidade, a proposta é reunir informação clara, ideias práticas e aprendizado responsável.</p><p>O objetivo é facilitar o primeiro contato com temas técnicos e incentivar o desenvolvimento de novas habilidades.</p><div class="about-pills"><span>SEGURANÇA</span><span>CONHECIMENTO</span><span>TECNOLOGIA</span></div></div></div>
+    </section>
+
+    <section class="section faq-section" id="perguntas"><div class="container faq-layout"><div class="reveal"><p class="section-label">05 / DÚVIDAS FREQUENTES</p><h2>Antes de <span class="gold-text">começar.</span></h2><p>Duas respostas importantes para quem está entrando nessa área.</p></div><div class="faq-list reveal"><details><summary>O que é hacking ético? <span>+</span></summary><p>É avaliar a segurança de sistemas e redes com autorização explícita e limites definidos. O objetivo é encontrar e corrigir riscos, não invadir ou causar danos.</p></details><details><summary>Posso praticar eletricidade básica em casa? <span>+</span></summary><p>Você pode estudar a teoria e montar circuitos didáticos de baixa tensão com componentes apropriados e supervisão. Não abra equipamentos ligados à tomada nem intervenha em instalações energizadas.</p></details><details><summary>Os guias são para iniciantes? <span>+</span></summary><p>Sim. Os conteúdos do site são introdutórios e explicam conceitos essenciais com linguagem acessível, sem exigir experiência prévia.</p></details></div></div></section>
+
+    <section id="contato" class="section contact-section">
+      <div class="container contact-wrap reveal"><div class="contact-copy"><p class="section-label">06 / FALE COM A VNS.CO</p><h2>Tem um projeto,<br>uma dúvida ou uma <span class="gold-text">ideia?</span></h2><p>Conte qual área desperta seu interesse. Prepare uma mensagem organizada para enviar pelo canal que preferir.</p><div class="contact-mark">✦ <span>CONHECIMENTO NÃO TEM FRONTEIRAS.</span></div></div>
+        <form id="contact-form" class="contact-form" novalidate><div class="form-label-top"><span>INICIAR CONTATO</span><span>✳ VNS.CO</span></div><label for="name">Seu nome</label><input id="name" name="name" placeholder="Como podemos chamar você?" autocomplete="name" maxlength="100" required><label for="email">Seu e-mail</label><input id="email" type="email" name="email" placeholder="seuemail@exemplo.com" autocomplete="email" maxlength="160" required><label for="interest">Assunto</label><select id="interest" name="interest" required><option value="" disabled selected>Selecione um tema</option><option>Hacking ético e segurança digital</option><option>Redes e infraestrutura</option><option>Hardware e manutenção</option><option>Eletricidade básica</option><option>Outros assuntos</option></select><label for="message">Sua mensagem</label><textarea id="message" name="message" rows="4" minlength="10" maxlength="2000" placeholder="Conte um pouco sobre o que você precisa..." required></textarea><p id="contact-feedback" class="contact-feedback" role="status" aria-live="polite"></p><button type="submit" class="btn btn-gold contact-submit">Preparar mensagem <span aria-hidden="true">↗</span></button><p class="form-disclaimer">Seus dados não são enviados automaticamente. O site organiza uma mensagem para você copiar.</p></form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-main"><a class="footer-brand" href="#inicio">VNS<span>.</span>CO <small>✦</small></a><p>SEGURANÇA DIGITAL. REDES.<br>HARDWARE. ELETRICIDADE.</p><a href="#inicio" class="footer-top-link">VOLTAR AO TOPO ↑</a></div><div class="container footer-sub"><span>© <span id="year"></span> VNS.CO — SITE DEMONSTRATIVO</span><span>APRENDA COM CURIOSIDADE. PRATIQUE COM RESPONSABILIDADE.</span></div></footer>
+  <dialog id="guide-dialog" class="modal guide-modal" aria-labelledby="guide-modal-title"><div class="modal-top"><span class="mono">VNS.CO / BASE DE CONHECIMENTO</span><button class="modal-close" data-close-modal type="button" aria-label="Fechar guia">×</button></div><span id="guide-modal-label" class="guide-dialog-label"></span><h2 id="guide-modal-title"></h2><div id="guide-modal-body" class="guide-dialog-body"></div><button class="btn btn-outline modal-end" data-close-modal type="button">Voltar aos guias ←</button></dialog>
+  <dialog id="contact-dialog" class="modal contact-dialog" aria-labelledby="contact-dialog-title"><div class="modal-top"><span class="mono">VNS.CO / MENSAGEM</span><button type="button" data-close-modal class="modal-close" aria-label="Fechar mensagem">×</button></div><h2 id="contact-dialog-title">Sua mensagem está pronta.</h2><p>Copie o texto e compartilhe pelo seu aplicativo ou e-mail.</p><pre id="contact-message-output" tabindex="0"></pre><button id="copy-message" class="btn btn-gold" type="button">Copiar mensagem ↗</button></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
